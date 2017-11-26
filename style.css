@@ -2377,6 +2377,10 @@ cursor: pointer;
   text-align          : center;
   line-height         : 18.0px;
 }
+
+.a10-reward-saver-cross-sell-proposed2-blank .view48 .group4 .save-changes:hover{
+  cursor: pointer;
+}
 .a10-reward-saver-cross-sell-proposed2-blank .group5 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 1611px;
