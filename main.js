@@ -21,6 +21,11 @@ $(document).ready(function(){
     window.location.href='a11rewardsavercrosssellproposed2blank.html';
   });
 
+  $('.a10-reward-saver-cross-sell-proposed2-blank .view48 .group4 .rectangle6').click(function()
+  {
+    window.location.href='a11rewardsavercrosssellproposed2blank.html?showTotal=' + showTotal ;
+  });
+
 
     $('.a10-reward-saver-cross-sell-proposed2-blank .homeloancontainer .headerexpense .view2').click(function()
     {
@@ -46,7 +51,9 @@ $(document).ready(function(){
 
     })
 
-
+      if(valueSaved){
+        testCall()
+      }
 
 })
 
@@ -65,9 +72,7 @@ $(document).ready(function(){
     //   $('.a000').text('$ ' + total);
     //
     //
-    //   if(valueSaved){
-    //     testCall()
-    //   }
+
     // });
 
 function calculateTotal(){
@@ -104,7 +109,7 @@ function testCall(){
 
 var valueSaved = window.location.search.substring(1);
 var savedTotal = valueSaved.split("=").pop();
-$('.a000_page1').text('$  '+ savedTotal);
+$('div[class*=a000]').text('$  '+ savedTotal );
 }
 
 //
