@@ -754,8 +754,27 @@ cursor: pointer;
   text-align          : center;
   line-height         : 18.0px;
 }
+
+.rectangle4{
+  top                 : 95px;
+  height              : 45px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 386px;
+  font-family         : "Source Sans Pro", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(158, 158, 158, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+
+
+}
 .a10-reward-saver-cross-sell-proposed2-blank .homeloancontainer .rectangle4 {
-  background          : rgba(255, 255, 255, 0.0);
+  background-image: img anima-src="./img/11  reward saver  cross sellproposed2blankrectangle 4.png"
+  /*background          : rgba(255, 255, 255, 0.0);*/
   top                 : 95px;
   height              : 45px;
   width               : 180px;
