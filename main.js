@@ -21,6 +21,12 @@ $(document).ready(function(){
     window.location.href='a11rewardsavercrosssellproposed2blank.html';
   });
 
+  $('.a10-reward-saver-cross-sell-proposed2-blank .homeloancontainer .group').click(function()
+  {
+    window.location.href='a11rewardsavercrosssellproposed2blank.html';
+  });
+
+
   $('.a10-reward-saver-cross-sell-proposed2-blank .view48 .group4 .rectangle6').click(function()
   {
     window.location.href='a11rewardsavercrosssellproposed2blank.html?showTotal=' + showTotal ;
