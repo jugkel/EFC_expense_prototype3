@@ -38,6 +38,11 @@ $(document).ready(function(){
       window.location.href='index.html?showTotal=' + showTotal;
     });
 
+    $('.a11-reward-saver-cross-sell-proposed2-blank .homeloancontainer .headerexpense .current-job').click(function()
+    {
+      window.location.href='index.html?showTotal=' + showTotal;
+    });
+
 
     $('.a10-reward-saver-cross-sell-proposed2-blank .group5 .rectangle6-copy').click(function()
 
